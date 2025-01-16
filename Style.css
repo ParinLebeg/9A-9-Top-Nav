@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(218, 31, 31);
+    font-family: Berlin Sans FB;
+    width: 100%;
+}
+
+nav a{
+    padding: 15px 15px;
+    color : rgb(255, 255, 255);
+    float :right;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    transition: .7s ease;
+}
+
+.Banner{
+    float: left;
+    color: white;
+    padding: 15px 25px;
+    scale: 140%;
+}
